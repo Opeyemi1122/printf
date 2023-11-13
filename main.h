@@ -6,7 +6,13 @@
 
 int _putchar(char c);
 
-int print_strng(va_list args);
+int print_int(va_list args);
+
+char *strdup(const char *s);
+
+int selector(const char *format, va_list args);
+
+int print_string(va_list args);
 
 int _printf(const char *format, ...);
 

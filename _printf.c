@@ -10,11 +10,10 @@ int _printf(const char *format, ...)
         int printed = 0;
         va_list args;
 
-        /** check if format string is empty*/
         if (format == NULL)
                 return (-1);
         va_start(args, format);
-        /** otherwise loop throught the format string*/
+
         while (*format)
         {
                 if (*format == '%')

@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <string.h>
 /**
  * print_string - prints string
  * @args: number of arguments
  * Return: printed characters
  */
 
-int print_strng(va_list args)
+int print_string(va_list args)
 {
         int printed = 0;
         char *s = va_arg(args, char *);
