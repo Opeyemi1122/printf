@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 /**
- * print_char - print char
+ * print_chr - print character
  * @args: no of arguments
  * Return: printed
  */

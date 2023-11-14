@@ -7,7 +7,7 @@
 
 /**
  * _printf - function produces output according to a format
- * @format: a character string composed of zero 
+ * @format: a character string composed of zero
  * Return: the number of characters printed except the null byte
  */
 
