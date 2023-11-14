@@ -1,4 +1,10 @@
 #include "main.h"
+#include <stdarg.h>
+#include <stdio.h>
+#include <stddef.h>
+#include <string.h>
+#include <unistd.h>
+
 /**
  * print_int - function that prints an integer
  * @args: list of arguments

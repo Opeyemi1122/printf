@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <stddef.h>
+#include <unistd.h>
+
 /**
  * print_string - prints string
  * @args: number of arguments
